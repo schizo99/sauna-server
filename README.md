@@ -1,7 +1,7 @@
 # Read temperature from display of sauna
 
 # Install server
-
+```
 go get github.com/BurntSushi/toml
 go get github.com/dhowden/raspicam
 go get github.com/op/go-logging
@@ -9,6 +9,7 @@ go get github.com/otiai10/gosseract
 go get gocv.io/x/gocv
 
 go build server.go
+```
 
 ## Create config file
 
